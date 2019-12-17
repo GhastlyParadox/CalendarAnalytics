@@ -1,0 +1,119 @@
+body { 
+    background: url("../imgs/sunset.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    left:0;
+    padding:0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.btn-primary {
+   /* padding: 14px 24px;*/
+    padding: 3% 5%;
+    border: 0 none;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    background: #42A3EB;
+    color: #ffffff;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #42A3EB;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #42A3EB;
+    box-shadow: none;
+}
+
+.container-height {
+    height: 100%;
+}
+
+.float-left {
+    float: left;
+    padding-left: 7%;
+}
+
+.form_login, .inner-msg {
+    text-align: center; 
+}
+
+
+h1 {
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header {
+    color: #ffffff;
+}
+
+.inner-box {
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.inner-msg {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.inner-msg a {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-transparent .navbar-brand {
+    font-size: 300%;
+    color: white;
+}
+
+.navbar-transparent {
+    margin: 1% 1% 1% 1%;
+}
+
+.navbar-transparent .navbar-brand > li > a:hover, .navbar-transparent .navbar-brand > li > a:focus {
+    background-color: #FFFF00;
+    color: #FFC0CB;
+}
+
+.margin-box {
+    margin: 7% 18% 5% 18%;
+}
+
+.outer-msg {
+    padding-top: 18%;
+    padding-bottom: 14%;
+}
+
+p {
+    padding: 3% 5% 5% 5%;
+}

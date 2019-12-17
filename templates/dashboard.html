@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block style %}
+  <link rel="stylesheet" href="static/css/dashboard.css">
+{% endblock %}
+{% block content %}
+
+<!-- NAVBAR TOP -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Calendar Analytics</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- SIDEBAR LEFT -->
+
+<div class="container-fluid container-height">
+  <div class="row">
+    <div class="col-xs-3 sidebar left">
+      <ul class="nav nav-sidebar">
+        <p class="title">Calendar</p>
+        <div class="btn-group-vertical" data-toggle="buttons">
+        <form id="selected-calendars" action="/dashboard">
+          {% for calendar in calendar_options %}
+            <label class="btn btn-primary active" for="all">{{calendar}}
+              <input type="radio" class="all" name="calendar" value="{{calendar}}" onChange="sendFilters()"/>
+            </label>
+           {% endfor %}
+        </form>
+        </div>
+      </ul>
+    </div>
+
+<!-- DIAGRAM CENTER -->
+
+    <div class="col-xs-6">
+      <div class="inner-dashboard">
+        <div id="tooltip"></div>
+        <div class="diagram"></div>
+        <div id="chart"></div>
+
+<!--        <div id="legend"></div>  -->
+      </div>
+    </div>
+
+<!-- SIDEBAR RIGHT -->
+
+  <div class="col-xs-3 sidebar right">
+    <div class="nav nav-sidebar pull-right affix">
+      <ul class="nav nav-sidebar">
+          <p class="title">Dates</p>
+          <p>Start<br><input type="text" class="datepicker btn btn-primary" id="startdate"><br>
+          End<br><input type="text" class="datepicker btn btn-primary" id="enddate"></p>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="download navbar-fixed-bottom">
+  <button style="right: 0px;" onclick="download()">Save as .jpeg</button>
+
+</div>
+
+{% endblock %}

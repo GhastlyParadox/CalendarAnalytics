@@ -1,0 +1,9 @@
+*.log
+*.json
+instance/
+.webassets-cache
+notes.txt
+*.ps1
+/venv
+*.pyc
+.DS_Store

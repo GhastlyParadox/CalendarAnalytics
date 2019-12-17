@@ -1,0 +1,194 @@
+.all {
+  display: none;
+}
+
+body {
+  left:0;
+  padding:0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 170%;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #090f0f;
+}
+
+body, html {
+  height: 100%;
+}
+
+.btn-sample {
+  color: #090f0f;
+  background-color: #F1F0F5;
+  border-color: #d8d8dc;
+  width: 200px;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  color: #000000;
+  background-color: #d8d8dc;
+  border-color: #d8d8dc;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #F1F0F5;
+  border-color: #d8d8dc;
+}
+
+.btn-sample .badge {
+  color: #090f0f;
+  background-color: #000000;
+}
+
+#circle:hover path.fade {
+  display: none;
+}
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.container-fluid.top {
+  /*background: linear-gradient(180deg, #3C7FA4 0%, #003a5a 57%, #003a5a 100%);*/
+  background: linear-gradient(to bottom,#245580 0,#265a88 100%);
+  border-color: #245580
+}
+
+.container-height {
+  height: 100%;
+}
+
+.collapse {
+  font-size: 100%;
+  color: red;
+}
+
+.datepicker .btn .btn-sample {
+  width: 120px;
+}
+
+.dates {
+  padding-top: 12%;
+}
+
+.diagram {
+  height: 100%;
+}
+
+.diagram p {
+  text-align: center;
+  margin-top: 40%;
+  margin-right: 5%
+}
+
+#myChart {
+  margin: 12% 10% 15% 10%;
+  z-index: 8;
+}
+
+.name {
+  z-index: 10;
+  text-align: center;
+  width: 100px;
+  position: absolute;
+  margin-top: 46%;
+  margin-left: 41%;
+}
+
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 120%;
+}
+
+
+path.group {
+  fill-opacity: .8;
+}
+
+
+.pull-right {
+  text-align: center;
+  padding-left: 5%;
+}
+
+.radio-chart-types {
+  margin-bottom: 14%;
+
+}
+.row {
+  height: 100%;
+}
+
+.sidebar {
+  /*margin: 50px;*/
+  height: 100%;
+  text-align: center;
+  margin: 2% 0 0 0;
+  padding: 0;
+}
+
+#startdate {
+  margin-bottom: 7%;
+}
+
+text {
+  font-size: 170%;
+  color: red;
+}
+
+.title {
+  margin-bottom: 7%;
+  font-size: 150%;
+}
+
+.title.bottom {
+  margin-top: 7%;
+}
+
+.title .right {
+  margin-bottom: 14%;
+}
+
+#tooltip {
+  color: #090f0f;
+  opacity: 1;
+  background: #F1F0F5;
+  padding: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+#pieChart {
+  background: white;
+}
