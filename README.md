@@ -1,6 +1,6 @@
 # Calendar Analytics #
 
-Calendar Analytics is a simple data visualization app for Google Calendar. It groups Google Calendar events according to event color, and generates a doughnut chart using the summed durations of each color within a given date range.
+Calendar Analytics is a simple data visualization app for Google Calendar, created for the LSA Dean. It groups Google Calendar events according to event color, and generates a doughnut chart using the summed durations of each color within a given date range.
 
 ## Technologies
 - Python, OAuth 2.0, Google Calendar & People APIs, Flask, Jinja2, Datetime
@@ -17,7 +17,7 @@ Requirements:
 
 Clone repository
 ```
-$
+$ git clone https://gitlab.umich.edu/lsa-ts-rsp/dean-calendar-tool.git
 ```
 Create a virtual environment
 ```
