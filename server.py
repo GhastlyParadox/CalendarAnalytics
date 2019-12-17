@@ -78,7 +78,7 @@ def oauth2():
     now, two_months, two_months_back = get_dates()
 
     primary_calendar = calendar_service.calendarList().get(calendarId='primary').execute()
-    dean_calendar = calendar_service.calendarList().get(calendarId='laneag@gmail.com').execute()
+    dean_calendar = calendar_service.calendarList().get(calendarId='acurzan@umich.edu').execute()
     calendars = { primary_calendar['id'] : primary_calendar, dean_calendar['id'] : dean_calendar}
     colors = calendar_service.colors().get().execute()                                                                #for event colors/labels
     events = event_api_call(event_service,
