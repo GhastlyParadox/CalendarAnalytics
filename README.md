@@ -2,6 +2,8 @@
 
 Calendar Analytics is a simple data visualization app for Google Calendar, created for the LSA Dean. It groups Google Calendar events according to event color, and generates a doughnut chart using the summed durations of each event color within a given date range.
 
+#+html: <p align="center"><img src="https://github.com/GhastlyParadox/ghastlyparadox.github.io/blob/master/chart.jpeg" /></p>
+
 ## Technologies
 - Python, OAuth 2.0, Google Calendar & People APIs, Flask, Jinja2, Datetime
 - Javascript, jQuery, AJAX, D3, Chart.js, Underscore.js, Moment.js
