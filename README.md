@@ -6,7 +6,7 @@ Calendar Analytics is a simple data visualization app for Google Calendar, creat
 
 ## Technologies
 - Python, OAuth 2.0, Google Calendar & People APIs, Flask, Jinja2, Datetime
-- Javascript, jQuery, AJAX, D3, Chart.js, Underscore.js, Moment.js
+- Javascript, jQuery, AJAX, Chart.js, Underscore.js, Moment.js
 - PostgreSQL, SQLAlchemy, HTML5, CSS, Bootstrap
 
 ## Installation
